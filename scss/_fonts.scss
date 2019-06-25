@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?87310640');
+  src: url('../fonts/fontello.eot?87310640#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?87310640') format('woff2'),
+       url('../fonts/fontello.woff?87310640') format('woff'),
+       url('../fonts/fontello.ttf?87310640') format('truetype'),
+       url('../fonts/fontello.svg?87310640#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  
+  font-variant: normal;
+  text-transform: none;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+ 
+.icon-play:before { content: '\e802'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+
+@font-face {font-family: "HelveticaNeueBold";
+    font-display: swap;
+    src: url("../fonts/HelveticaNeueCyr-Bold.eot");
+    src: url("../fonts/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff"),
+    url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {font-family: "HelveticaNeue-Light";
+    font-display: swap;
+    src: url("../fonts/HelveticaNeue-Light.woff2") format("woff2");
+    src: url("../fonts/HelveticaNeue-Light.woff") format("woff"),
+    url("../fonts/HelveticaNeue-Light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {font-family: "HelveticaNeueCyr-Thin";
+    font-display: swap;
+    src: url("../fonts/HelveticaNeueCyr-Thin.eot");
+    src: url("../fonts/HelveticaNeueCyr-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeueCyr-Thin.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Thin.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {font-family: "HelveticaNeueCyr-Roman";
+    font-display: swap;
+    src: url("../fonts/HelveticaNeueCyr-Roman.eot");
+    src: url("../fonts/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Roman.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {font-family: "Champagne&LimousinesV1";
+  font-display: swap;
+  src: url("../fonts/Champagne&LimousinesV1.eot"); /* IE9*/
+  src: url("../fonts/Champagne&LimousinesV1.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/Champagne&LimousinesV1.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/Champagne&LimousinesV1.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/Champagne&LimousinesV1.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/Champagne&LimousinesV1.svg#Champagne & Limousines V1") format("svg"); /* iOS 4.1- */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {font-family: "Champagne&LimousinesBoldV1";
+  font-display: swap;
+  src: url("../fonts/Champagne&LimousinesBoldV1.eot"); /* IE9*/
+  src: url("../fonts/Champagne&LimousinesBoldV1.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/Champagne&LimousinesBoldV1.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/Champagne&LimousinesBoldV1.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/Champagne&LimousinesBoldV1.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/Champagne&LimousinesBoldV1.svg#Champagne & Limousines Bold V1") format("svg"); /* iOS 4.1- */
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font1:"Champagne&LimousinesV1", sans-serif;
+$font2: "HelveticaNeue-Light", sans-serif;
+$font3: "HelveticaNeueCyr-Thin", sans-serif;
+$font4:"HelveticaNeueCyr-Roman", sans-serif;
+$font-bold1: "HelveticaNeueBold", sans-serif;
+$font-bold2: "Champagne&LimousinesBoldV1", sans-serif;

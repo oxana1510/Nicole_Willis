@@ -1,0 +1,86 @@
+.meet{
+	background: -webkit-linear-gradient(45deg, #2492a1, #268599,  #2c6486, #2e587f);
+	background: -o-linear-gradient(45deg, #2492a1, #268599,  #2c6486, #2e587f);
+	background: linear-gradient(45deg, #2492a1, #268599,  #2c6486, #2e587f);
+.container-2{
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	padding: 5rem 6rem;
+	color: #fff;
+.meet-photo{
+	position: absolute;
+	bottom: 0;
+	left: 14.5rem;
+}
+.block-text{
+	position: relative;
+	z-index: 2;
+	max-width: 45rem;
+	width: 100%;
+h2{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 1px;
+	padding-bottom: 3rem;
+span{
+	font: 2.26em $font1;
+	text-transform: none;
+	display: block;
+}
+}
+p{
+	font: 1.6rem/2.6rem $font4;
+}
+}
+}
+}
+
+@media screen and (max-width: 1120px){
+.meet .container-2
+.meet-photo{
+	left: 0;
+}
+}
+@media screen and (max-width: 992px){
+.meet .container-2{
+	padding: 5rem 2rem;
+.meet-photo{
+	left: -6rem;
+.block-text{
+	max-width: 40rem;
+}
+}
+}	
+}
+@media screen and (max-width: 768px){
+.meet .container-2{
+	padding-bottom: 48rem;
+.meet-photo{
+	right: 0;
+	left: 0;
+	text-align: center;
+}
+.block-text{
+	max-width: 100%;
+h2{
+	text-align: center;
+}
+}
+}
+}
+@media screen and (max-width: 576px){
+.meet .container-2{
+	padding-bottom: 32rem;
+.meet-photo img{
+	width: 29.2rem;
+	height: 32.6rem;
+}
+}
+
+}

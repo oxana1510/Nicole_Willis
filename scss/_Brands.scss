@@ -1,0 +1,68 @@
+.Brands{
+	background: #f6f8f7;
+.container-2{
+	position: relative;
+	padding: 5rem 6rem;
+&:after{
+	position: absolute;
+	content: "";
+	background: url(../img/Brands-bg2.jpg) no-repeat center top;
+	background-size: contain;
+	background-position: bottom right;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+}
+h2{
+	position: relative;
+	z-index: 3;
+	text-align: left;
+	padding: 0 0 6rem 12rem;
+}
+.bottles{
+	position: relative;
+	z-index: 3;
+img{
+	max-width: 43rem;
+	width: 100%;
+}
+}
+}
+}
+@media screen and (max-width: 1100px){
+.Brands
+.container-2:after{
+	right: -12rem;
+}
+}
+@media screen and (max-width: 992px){
+.Brands
+.container-2{
+	padding: 5rem 2rem;	
+&:after{
+	right: -17rem;
+}
+}
+}
+@media screen and (max-width: 768px){
+.Brands .container-2{
+&:after{
+	right: -25rem;
+}
+h2{
+	text-align: center;
+	padding-left: 0;
+}
+}
+}
+@media screen and (max-width: 420px){
+.Brands .container-2{
+&:after{
+	display: none;
+}
+.bottles{
+	text-align: center;
+}
+}
+}
